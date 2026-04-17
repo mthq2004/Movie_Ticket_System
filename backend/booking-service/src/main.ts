@@ -6,8 +6,8 @@ async function bootstrap() {
   app.enableCors({
     origin: '*',
   });
-  await app.listen(3003, '0.0.0.0');
-  console.log('Booking Service running on http://0.0.0.0:3003');
+  await app.listen(8083, '0.0.0.0');
+  console.log('Booking Service running on http://172.28.108.173:8083');
 }
 bootstrap();
 

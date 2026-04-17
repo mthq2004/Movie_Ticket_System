@@ -6,8 +6,8 @@ async function bootstrap() {
   app.enableCors({
     origin: '*',
   });
-  await app.listen(3004, '0.0.0.0');
-  console.log('Payment+Notification Service running on http://0.0.0.0:3004');
+  await app.listen(8084, '0.0.0.0');
+  console.log('Payment+Notification Service running on http://172.28.108.173:8084');
 }
 bootstrap();
 

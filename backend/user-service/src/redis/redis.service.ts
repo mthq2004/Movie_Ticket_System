@@ -7,8 +7,8 @@ export class RedisService implements OnModuleDestroy {
   private subscriber: Redis;
 
   constructor() {
-    this.publisher = new Redis({ host: 'localhost', port: 6379 });
-    this.subscriber = new Redis({ host: 'localhost', port: 6379 });
+    this.publisher = new Redis({ host: '172.28.108.173', port: 6379 });
+    this.subscriber = new Redis({ host: '172.28.108.173', port: 6379 });
   }
 
   async publish(channel: string, message: object): Promise<void> {

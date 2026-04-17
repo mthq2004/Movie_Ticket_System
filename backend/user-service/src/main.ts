@@ -6,8 +6,8 @@ async function bootstrap() {
   app.enableCors({
     origin: '*',
   });
-  await app.listen(3001, '0.0.0.0');
-  console.log('User Service running on http://0.0.0.0:3001');
+  await app.listen(8081, '0.0.0.0');
+  console.log('User Service running on http://172.28.108.173:8081');
 }
 bootstrap();
 

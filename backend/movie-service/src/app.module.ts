@@ -9,7 +9,7 @@ import { GenresModule } from './genres/genres.module';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: 'localhost',
+      host: '172.28.108.173',
       port: 3306,
       username: 'root',
       password: 'root',

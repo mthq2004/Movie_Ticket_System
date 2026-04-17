@@ -6,8 +6,8 @@ async function bootstrap() {
   app.enableCors({
     origin: '*',
   });
-  await app.listen(3002, '0.0.0.0');
-  console.log('Movie Service running on http://0.0.0.0:3002');
+  await app.listen(8082, '0.0.0.0');
+  console.log('Movie Service running on http://172.28.108.173:8082');
 }
 bootstrap();
 
