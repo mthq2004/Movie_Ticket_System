@@ -11,10 +11,10 @@ import { HttpService } from '@nestjs/axios';
 import { firstValueFrom } from 'rxjs';
 
 const ROUTE_MAP: Record<string, string> = {
-  '/auth': 'http://localhost:3001',
-  '/movies': 'http://localhost:3002',
-  '/genres': 'http://localhost:3002',
-  '/bookings': 'http://localhost:3003',
+  '/auth': 'http://172.28.108.173:3001',
+  '/movies': 'http://172.28.108.173:3002',
+  '/genres': 'http://172.28.108.173:3002',
+  '/bookings': 'http://172.28.108.173:3003',
 };
 
 @Controller()

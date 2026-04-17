@@ -3,9 +3,9 @@ import { HttpService } from '@nestjs/axios';
 import { firstValueFrom } from 'rxjs';
 
 const SERVICES = {
-  user: 'http://localhost:3001',
-  movie: 'http://localhost:3002',
-  booking: 'http://localhost:3003',
+  user: 'http://172.28.108.173:3001',
+  movie: 'http://172.28.108.173:3002',
+  booking: 'http://172.28.108.173:3003',
 };
 
 @Injectable()
